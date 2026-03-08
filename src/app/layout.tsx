@@ -37,6 +37,10 @@ const syne = Syne({
 export const metadata: Metadata = {
   title: "Rajesh | Full-Stack Developer & AI Builder",
   description: "Personal portfolio of Rajesh, a full-stack developer and AI builder based in Pune, India.",
+  icons: {
+    icon: "/favicon.svg",
+    apple: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
